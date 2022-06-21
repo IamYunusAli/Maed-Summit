@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+                backgroundImage: {
+                    'headline-pattern': "url('assets/headway.jpg')",
+                    'healine':"url('assets/marvin.jpg')",
+                    'events':"url('assets/event.png')",
+                    'backimg':"url('assets/backimage.png')",
+                    'program':"url('assets/program.png')",
+                    'picon1':"url('assets/icons/program01.png')",
+                    'picon2':"url('assets/icons/program02.png')",
+                    'picon3':"url('assets/icons/program03.png')",
+                    'picon4':"url('assets/icons/program04.png')",
+                    'picon5':"url('assets/icons/program05.png')",
+                    'sponsor1':"url('assets/sponsors/airbnb.png')",
+                    'sponsor2':"url('assets/sponsors/google.png')",
+                    'sponsor3':"url('assets/sponsors/mozilla.png')",
+                    'sponsor4':"url('assets/sponsors/naver.png.png')",
+                    'footerlogo':"url('assets/LogoB.png')",
+                    'speaker':"url('assets/speaker/speaker1.jpg')"
+                }
+            }
+          }
+        }
+      </script>
+    <title>Maed Tech Event</title>
+</head>
+<body>
+    <header>
+        <ul class="hidden items-center bg-gray-800 text-white md:flex justify-end h-[30px] pr-[10%]">
+            <li class="p-1"><a href=""><i class="bi bi-facebook"></i></a></li>
+            <li class="p-1"><a href=""><i class="bi bi-twitter"></i></a></li>
+            <li class="p-1"><a href="">English   </a></li>
+            <li class="p-1"><a href="">My Page   </a></li>
+            <li class="p-1"><a href="">logout    </a></li>
+        </ul>
+        <nav class="px-[10%] md:flex h-[55px] justify-between shadow-xl">
+            <i class="menulist bi bi-list md:hidden p-4 text-[40px] pl-0 "></i>
+            <a class="p-3 hidden md:flex" href="index.html"><img src="assets/LogoB.png" alt=""> </a>
+            <ul class="items md:flex items-center justify-center">
+                <li class="close"><i class="bi bi-x-lg"></i></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="index.html">Home</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Program</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Join</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">Sponsor</a></li>
+                <li class="item p-3 m-1 hover:text-[#ec5242]"><a href="">News</a></li>
+                <li class="item p-1 m-1 hover:text-[#ec5242] border-solid border-4 border-[#ec5242]"><a href="">CC Campaign</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class=" h-screen bg-[url('assets/event.png')] bg-contain bg-slate-400">
+            <div class="h-screen bg-[#5f5f5f50] flex flex-col text-center items-center justify-items-center py-[5%] gap-10">
+                <div class="text-[#ec5242]">
+                    <h1 class="text-[40px] md:text-[70px] cocogoose">Maed Creative <br> web dev summit</h1>
+                </div>
+                <hr class="w-[40px] bg-[#ec5242] h-[3px]">
+                <div class=" flex bg-white text-[#272a31] px-[10%] py-[5%] text-[#746f6f] mx-[10%] border-solid border-[1px] border-[#d3d3d3]">
+                    <p>We’re a company from Addis Ababa, Ethiopia, that holds events across the world: Web Summit in Lisbon, Web Summit Rio in Rio de Janeiro, Collision in Toronto, and RISE in Hong Kong.
+                        Politico has said we run “the world’s premier tech conference”,
+                        the Atlantic that Web Summit is “where the future goes to be born”, and the New York Times that we assemble “a grand conclave of the tech industry’s high priests.”</p>
+                </div>
+                    <p class="text-black">
+                        Please contact us per Email for any further questions about Science Festival 2022 ! <br>
+                        contactus@MaedTech.org
+                    </p>
+            </div>
+        </section>
+        <hr class="bg-[#ec5242] flex w-[100%] item-center">
+        <section class="bg-white  px-[10%] text-center text-black flex flex-col items-center gap-3">
+            <h2 class="text-center text-[#272a31] text-[25px] mt-[5%]">Creative web development Global summit 2022</h2>
+            <hr class="w-[40px] bg-[#ec5242] h-[3px]">
+            <p class="text-center">
+                The logo of CC Global Summit 2015 was decided through the logo competition from 8. June to 7. July.
+                After online public voting and Selection Committee's judging process, the logo from Naresh Agrawal won the prize.
+                After consultation with Mr. Agrawal we optimized the prize-winning-logo for this year's summit as following
+            </p>
+            <div class="my-[5%] px-[5%] py-[2%] border-solid border-[1px] border-[#d3d3d3]">
+            <img src="assets/LogoB.png" alt="">
+            </div>
+        </section>
+        <hr class="bg-[#ec5242] flex w-[100%] item-center">
+        <section class="px-[10%] flex flex-col items-center gap-3 justify-center items-center">
+            <h2 class="text-center text-[#272a31] text-[25px] mt-[5%]">See previous Global summit 2022</h2>
+            <hr class="w-[40px] bg-[#ec5242] h-[3px]">
+            <p>Take a look at the last two events which took place in Marseille and Grenoble</p>
+            <div class="ml-[3%] mt-[50px] pb-[100px] grid gap-[10px] grid-cols-1 md:grid-cols-2 justify-items-center">
+
+                <div class="h-[320px]  bg-[url('assets/event.png')] bg-contain ">
+                    <div class=" text-[#fff] hover:bg-[#ec53423d] bg-[#ec5342bd] h-[inherit] p-[20px] flex justify-center  flex-col flex-nowrap gap-5 items-center">
+                        <h2 class="text-[25px] text-[#fff]">Bahir dar</h2>
+                        <p class="text-center">Let's meet the innovators from various fields who share their latest used technologies in new normal business.</p>
+                    </div>
+                </div>
+
+                <div class="h-[320px]  bg-[url('assets/event.png')] bg-contain ">
+                    <div class=" text-[#fff] hover:bg-[#ec53423d] bg-[#ec5342bd] h-[inherit] p-[20px] flex justify-center  flex-col flex-nowrap gap-5 items-center">
+                        <h2 class="text-[25px] text-[#fff]">Dire Dawa</h2>
+                        <p class="text-center">Let's meet the innovators from various fields who share their latest used technologies in new normal business.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="px-[10%] py-[5%] text-white flex bg-[#414246]">
+        <a href=""><img src="assets/Logoh.png" alt=""></a>
+        <div class="px-[5%]">
+            <h3>2022 creative commons Ethiopia. some rights reserved</h3>
+            <p class="hidden md:block">The Creative Commons copyright licenses and tools forge a balance inside the traditional “all rights reserved” setting that copyright law creates. Our tools give everyone from individual creators to large companies.</p>
+        </div>
+
+    </footer>
+    <script src="menu.js"></script>
+</body>
+</html>
