@@ -11,7 +11,7 @@
 
 ## Demo
 
-[Online Hosted Demo Link](https://iamyunusali.github.io/Maed-summit/)
+[Online Hosted Demo Link](https://iamyunusali.github.io/Maed-Summit/)
 
 ## Getting Started
 
